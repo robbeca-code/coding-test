@@ -118,3 +118,14 @@
 `String(123)을 하면 문자열 '123'으로 반환합니다.`
 2. for..of
 `for(let item of array){}를 하면 array에 있는 값을 item으로 전달하면서 {} 안에 있는 명령문을 반복적으로 실행합니다.`
+***
+
+**10. 120905**
+- 정수 n과 정수 배열 numlist가 매개변수로 주어질 때,
+- numlist에서 n의 배수가 아닌 수들을 제거한 배열을 return하도록 solution 함수를 완성해주세요.
+
+*사용된 메서드*
+1. forEach()
+`생략`
+2. filter()
+`array.filter(item => item > 1)을 하면 **item > 1**이라는 조건문에 참인 값만으로 새로운 배열을 만들어 반환합니다.`
