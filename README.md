@@ -153,3 +153,20 @@
 `let newArr = new Set(arr)를 했을 때 arr에서 중복되는 값을 제거한 뒤 새로운 배열을 반환합니다.`
 3. size()
 `newArr.size()는 length와 똑같은 기능을 하지만 Set 객체의 원소의 개수를 반환하는 것이 특징입니다.`
+***
+
+**13. 120902**
+- my_string은 "3 + 5"처럼 문자열로 된 수식입니다.
+- 문자열 my_string이 매개변수로 주어질 때, 수식을 계산한 값을 return 하는 solution 함수를 완성해주세요.
+
+*사용된 메서드*
+1. (new Function('return ' +))()
+`생략`
+2. split()
+`생략`
+3. filter()
+`생략`
+4. unshift()
+`arr.unshift(인자)를 하면 arr의 맨 앞쪽에 인자가 삽입됩니다.`
+5. shift()
+`arr.shift()를 하면 arr의 맨 앞쪽에 있는 값을 제거하고 헤당 값을 반환합니다.`
