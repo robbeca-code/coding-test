@@ -220,3 +220,15 @@
 [sort() 정의보기](#3-sort)
 ##### 5. join()
 [join() 정의보기](#4-join)
+***
+
+### [20. 120895](120895)
+- 문자열 my_string과 정수 num1, num2가 매개변수로 주어질 때,
+- my_string에서 인덱스 num1과 인덱스 num2에 해당하는 문자를 바꾼 문자열을 return 하도록 solution 함수를 완성해보세요.
+</br>
+
+*사용된 메서드*
+##### 1. split()
+[split() 정의보기](#2-split)
+##### 2. join()
+[join() 정의보기](#4-join)
