@@ -232,3 +232,21 @@
 [split() 정의보기](#2-split)
 ##### 2. join()
 [join() 정의보기](#4-join)
+***
+
+### [21. 120895](120895)
+- 영어가 싫은 머쓱이는 영어로 표기되어있는 숫자를 수로 바꾸려고 합니다.
+- 문자열 numbers가 매개변수로 주어질 때, numbers를 정수로 바꿔 return 하도록 solution 함수를 완성해 주세요.
+</br>
+
+*사용된 메서드*
+##### 1. forEach()
+[forEach() 정의보기](#1-foreach)
+##### 2. split()
+[split() 정의보기](#2-split)
+##### 3. join()
+[join() 정의보기](#4-join)
+##### 4. replaceAll()
+`str.replaceAll('dog', 'cat')했을 때 str 안에 있는 모든 dog를 cat으로 변환해줍니다.`
+##### 5. Number()
+`Number('123')를 하면 숫자 123이 반환됩니다.`
