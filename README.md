@@ -335,3 +335,26 @@
       ✏️ Number('123')를 하면 숫자 123이 반환됩니다.
   </div>
 </details>
+
+***
+
+### [22. 120893](120893.js)
+- 문자열 my_string이 매개변수로 주어질 때,
+- 대문자는 소문자로 소문자는 대문자로 변환한 문자열을 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Array.from()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from">Array.from() 정의보기</a>
+    <h4>2. forEach()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() 정의보기</a>
+    <h4>3. toUpperCase()</h4>
+      ✏️ string.toUpperCase()를 하면 문자 또는 문자열 전체를 <strong>대문자로 변환해 반환합니다.</strong>
+    <h4>4. toLowerCase()</h4>
+      ✏️ string.toLowerCase()를 하면 문자 또는 문자열 전체를 <strong>소문자로 변환해 반환합니다.</strong>
+    <h4>5. join()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
+  </div>
+</details>
