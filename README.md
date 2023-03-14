@@ -358,3 +358,20 @@
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [23. 120892](120892.js)
+- 군 전략가 머쓱이는 전쟁 중 적군이 다음과 같은 암호 체계를 사용한다는 것을 알아냈습니다.
+- 암호화된 문자열 cipher를 주고받습니다.
+- 그 문자열에서 code의 배수 번째 글자만 진짜 암호입니다.
+- 문자열 cipher와 정수 code가 매개변수로 주어질 때 해독된 암호 문자열을 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. for...in</h4>
+      ✏️ for(let i in array){}를 하면 array의 인덱스를 i에 반복적으로 넘기는 for문입니다.
+  </div>
+</details>
