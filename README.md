@@ -393,3 +393,26 @@
       ✏️ str.split(/[123]/)으로 정규표현식(//) 사용도 가능합니다. 1 또는 2 또는 3을 기준으로 문자열을 나눠서 배열로 변환합니다.
   </div>
 </details>
+
+***
+
+### [25. 120890](120890.js)
+- 정수 배열 array와 정수 n이 매개변수로 주어질 때,
+- array에 들어있는 정수 중 n과 가장 가까운 수를 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. push()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push">push() 정의보기</a>
+     <h4>2. sort()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
+     <h4>3. indexOf()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
+     <h4>4. Math.min()</h4>
+      ✏️ Math.min(2, 5)를 했을 때 2와 5 중 작은 2를 반환합니다.
+     <h4>5. reduce()</h4>
+      ✏️ array.reduce((a, c) => {...})를 하면 a에는 c의 이전 값이 들어있고, c에는 현재값이 들어가 있습니다.
+  </div>
+</details>
