@@ -416,3 +416,26 @@
       ✏️ array.reduce((a, c) => {...})를 하면 a에는 c의 이전 값이 들어있고, c에는 현재값이 들어가 있습니다.
   </div>
 </details>
+
+***
+
+### [26. 120889](120889.js)
+- 선분 세 개로 삼각형을 만들기 위해서는 다음과 같은 조건을 만족해야 합니다.
+- 가장 긴 변의 길이는 다른 두 변의 길이의 합보다 작아야 합니다.
+- 삼각형의 세 변의 길이가 담긴 배열 sides이 매개변수로 주어집니다.
+- 세 변으로 삼각형을 만들 수 있다면 1, 만들 수 없다면 2를 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. sort()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
+     <h4>2. splice()</h4>
+      ✏️ array.splice(인덱스, 개수)를 하면 인덱스부터 시작해서 개수까지 해당 값을 삭제할 수 있습니다. 이 메서드는 해당 배열에 영향을 줍니다.
+     <h4>3. indexOf()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
+     <h4>4. Math.max()</h4>
+      ✏️ Math.max(199, 72, 222)를 하면 222를 반환합니다.
+  </div>
+</details>
