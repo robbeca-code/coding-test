@@ -389,7 +389,7 @@
   <div markdown="1">
     <h4>1. for...of</h4>
       ✏️ for(let v of string){}를 하면 string 안에 있는 값을 v에 반복적으로 넘기는 반복문입니다.
-     <h4>2. split</h4>
+    <h4>2. split</h4>
       ✏️ str.split(/[123]/)으로 정규표현식(//) 사용도 가능합니다. 1 또는 2 또는 3을 기준으로 문자열을 나눠서 배열로 변환합니다.
   </div>
 </details>
@@ -406,13 +406,13 @@
   <div markdown="1">
     <h4>1. push()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push">push() 정의보기</a>
-     <h4>2. sort()</h4>
+    <h4>2. sort()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
-     <h4>3. indexOf()</h4>
+    <h4>3. indexOf()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
-     <h4>4. Math.min()</h4>
+    <h4>4. Math.min()</h4>
       ✏️ Math.min(2, 5)를 했을 때 2와 5 중 작은 2를 반환합니다.
-     <h4>5. reduce()</h4>
+    <h4>5. reduce()</h4>
       ✏️ array.reduce((a, c) => {...})를 하면 a에는 c의 이전 값이 들어있고, c에는 현재값이 들어가 있습니다.
   </div>
 </details>
@@ -431,11 +431,34 @@
   <div markdown="1">
     <h4>1. sort()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
-     <h4>2. splice()</h4>
+    <h4>2. splice()</h4>
       ✏️ array.splice(인덱스, 개수)를 하면 인덱스부터 시작해서 개수까지 해당 값을 삭제할 수 있습니다. 이 메서드는 해당 배열에 영향을 줍니다.
-     <h4>3. indexOf()</h4>
+    <h4>3. indexOf()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
-     <h4>4. Math.max()</h4>
+    <h4>4. Math.max()</h4>
       ✏️ Math.max(199, 72, 222)를 하면 222를 반환합니다.
+  </div>
+</details>
+
+***
+
+### [27. 120888](120888.js)
+- 문자열 my_string이 매개변수로 주어집니다.
+- my_string에서 중복된 문자를 제거하고 하나의 문자만 남긴 문자열을 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Set()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set">Set() 정의보기</a>
+    <h4>2. Array.from()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from">Array.from() 정의보기</a>
+    <h4>3. join()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
+    <h4>4. filter()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter() 정의보기</a>
+    <h4>4. indexOf()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
   </div>
 </details>
