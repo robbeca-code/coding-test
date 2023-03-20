@@ -458,7 +458,28 @@
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
     <h4>4. filter()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter() 정의보기</a>
-    <h4>4. indexOf()</h4>
+    <h4>5. indexOf()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
+  </div>
+</details>
+
+***
+
+### [28. 120887](120887.js)
+- 1부터 13까지의 수에서, 1은 1, 10, 11, 12, 13 이렇게 총 6번 등장합니다.
+- 정수 i, j, k가 매개변수로 주어질 때, i부터 j까지 k가 몇 번 등장하는지 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. toString()</h4>
+      ✏️ num.toString()을 하면 숫자 또는 다른 데이터형식을 문자열로 변환해줍니다.
+    <h4>2. indexOf()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
+    <h4>3. filter()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter() 정의보기</a>
+    <h4>4. split()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/split">split() 정의보기</a>
   </div>
 </details>
