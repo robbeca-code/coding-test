@@ -524,3 +524,27 @@
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor">Math.floor() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [30. 120883](120883.js)
+- 머쓱이는 프로그래머스에 로그인하려고 합니다.
+- 머쓱이가 입력한 아이디와 패스워드가 담긴 배열 id_pw와 회원들의 정보가 담긴 2차원 배열 db가 주어질 때,
+- 다음과 같이 로그인 성공, 실패에 따른 메시지를 return하도록 solution 함수를 완성해주세요.c
+- 아이디와 비밀번호가 모두 일치하는 회원정보가 있으면 "login"을 return합니다.
+- 로그인이 실패했을 때 아이디가 일치하는 회원이 없다면 “fail”를, 아이디는 일치하지만 비밀번호가 일치하는 회원이 없다면 “wrong pw”를 return 합니다.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. forEach()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor">Math.floor() 정의보기</a>
+    <h4>2. new Map()</h4>
+      ✏️ const myMap = new Map()를 하면 myMap이라는 Map 객체를 생성합니다. 값을 넣을 땐 set을 활용해서 합니다.
+    <h4>3. Map.prototype.has()</h4>
+      ✏️ map1.has('value')를 하면 map1에 value가 있을 때 true, 없으면 false를 반환합니다.
+    <h4>4. Map.prototype.get()</h4>
+      ✏️ map1.get('key')를 하면 key가 참조하는 value를 반환합니다.
+  </div>
+</details>
