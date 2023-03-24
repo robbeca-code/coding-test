@@ -530,7 +530,7 @@
 ### [30. 120883](120883.js)
 - 머쓱이는 프로그래머스에 로그인하려고 합니다.
 - 머쓱이가 입력한 아이디와 패스워드가 담긴 배열 id_pw와 회원들의 정보가 담긴 2차원 배열 db가 주어질 때,
-- 다음과 같이 로그인 성공, 실패에 따른 메시지를 return하도록 solution 함수를 완성해주세요.c
+- 다음과 같이 로그인 성공, 실패에 따른 메시지를 return하도록 solution 함수를 완성해주세요.
 - 아이디와 비밀번호가 모두 일치하는 회원정보가 있으면 "login"을 return합니다.
 - 로그인이 실패했을 때 아이디가 일치하는 회원이 없다면 “fail”를, 아이디는 일치하지만 비밀번호가 일치하는 회원이 없다면 “wrong pw”를 return 합니다.
 </br>
@@ -546,5 +546,33 @@
       ✏️ map1.has('value')를 하면 map1에 value가 있을 때 true, 없으면 false를 반환합니다.
     <h4>4. Map.prototype.get()</h4>
       ✏️ map1.get('key')를 하면 key가 참조하는 value를 반환합니다.
+  </div>
+</details>
+
+***
+
+### [31. 120882](120882.js)
+- 영어 점수와 수학 점수의 평균 점수를 기준으로 학생들의 등수를 매기려고 합니다.
+- 영어 점수와 수학 점수를 담은 2차원 정수 배열 score가 주어질 때,
+- 영어 점수와 수학 점수의 평균을 기준으로 매긴 등수를 담은 배열을 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Array()</h4>
+      ✏️ Array(5)를 하면 5개의 길이를 가진 배열을 생성할 수 있습니다.
+    <h4>2. fill()</h4>
+      ✏️ Array(5).fill(1)을 하면 배열의 값을 전부 1로 초기화해서 5개의 배열을 만들어줍니다.
+    <h4>3. map()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map() 정의보기</a>
+    <h4>4. length()</h4>
+      ✏️ arr.length()를 하면 arr의 길이를 반환합니다.
+    <h4>5. slice()</h4>
+      ✏️ arr.slice()를 하면 arr의 전체를 잘라줍니다. 이때 **arr에는 영향을 주지 않습니다.**
+    <h4>6. sort()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
+    <h4>7. indexOf()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
   </div>
 </details>
