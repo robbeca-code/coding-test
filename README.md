@@ -576,3 +576,25 @@
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [32. 120878](120878.js)
+- 소수점 아래 숫자가 계속되지 않고 유한개인 소수를 유한소수라고 합니다.
+- 분수를 소수로 고칠 때 유한소수로 나타낼 수 있는 분수인지 판별하려고 합니다.
+- 유한소수가 되기 위한 분수의 조건은 다음과 같습니다.
+- 기약분수로 나타내었을 때, 분모의 소인수가 2와 5만 존재해야 합니다.
+- 두 정수 a와 b가 매개변수로 주어질 때, a/b가 유한소수이면 1을, 무한소수라면 2를 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Math.floor()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor">Math.floor() 정의보기</a>
+    <h4>2. indexOf()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
+    <h4>3. Math.min()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min">Math.min() 정의보기</a>
+  </div>
+</details>
