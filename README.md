@@ -636,3 +636,20 @@
       ✏️ array.some(v => v > 10)를 했을 때 조건문에 참이 하나라도 있다면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
   </div>
 </details>
+
+***
+
+### [35. 120868](120868.js)
+- 선분 세 개로 삼각형을 만들기 위해서는 다음과 같은 조건을 만족해야 합니다.
+- 가장 긴 변의 길이는 다른 두 변의 길이의 합보다 작아야 합니다.
+- 삼각형의 두 변의 길이가 담긴 배열 sides이 매개변수로 주어집니다.
+- 나머지 한 변이 될 수 있는 정수의 개수를 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. sort()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
+  </div>
+</details>
