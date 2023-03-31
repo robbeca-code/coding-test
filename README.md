@@ -653,3 +653,21 @@
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [36. 120864](120864.js)
+- 문자열 my_string이 매개변수로 주어집니다.
+- my_string은 소문자, 대문자, 자연수로만 구성되어있습니다.
+- my_string안의 자연수들의 합을 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. split()</h4>
+      ✏️ str.split(/[A-z]/)를 하면 str 안에 A~z까지 문자열을 기준을 의미하는 정규표현식을 사용해서 문자열을 나눠서 배열로 반환합니다.
+    <h4>2. for..of()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/for...of">for..of() 정의보기</a>
+  </div>
+</details>
