@@ -671,3 +671,28 @@
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/for...of">for..of() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [37. 120863](120863.js)
+- 한 개 이상의 항의 합으로 이루어진 식을 다항식이라고 합니다.
+- 다항식을 계산할 때는 동류항끼리 계산해 정리합니다.
+- 덧셈으로 이루어진 다항식 polynomial이 매개변수로 주어질 때, 동류항끼리 더한 결괏값을 문자열로 return 하도록 solution 함수를 완성해보세요.
+- 같은 식이라면 가장 짧은 수식을 return 합니다.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. split()</h4>
+      ✏️ str.split(/[A-z]/)를 하면 str 안에 A~z까지 문자열을 기준을 의미하는 정규표현식을 사용해서 문자열을 나눠서 배열로 반환합니다.
+    <h4>2. forEach()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor">Math.floor() 정의보기</a>
+    <h4>3. indexOf()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
+    <h4>4. parseInt()</h4>
+      ✏️ num = parseInt('1234', 10)으로 하면 '1234'를 1234라는 정수로 반환합니다.
+    <h4>5. join()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
+  </div>
+</details>
