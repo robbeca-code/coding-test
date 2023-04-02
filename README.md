@@ -696,3 +696,20 @@
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [38. 120862](120862.js)
+- 정수 배열 numbers가 매개변수로 주어집니다.
+- numbers의 원소 중 두 개를 곱해 만들 수 있는 최댓값을 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. sort()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
+    <h4>2. Math.max()</h4>
+      ✏️ Math.max(-12, 5)를 하면 가장 큰 수인 5를 반환합니다.
+  </div>
+</details>
