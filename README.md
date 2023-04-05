@@ -735,3 +735,23 @@
       ✏️ Math.abs(-12)를 하면 -12의 절대값인 12를 반환해줍니다.
   </div>
 </details>
+
+***
+
+### [40. 120860](120860.js)
+- 2차원 좌표 평면에 변이 축과 평행한 직사각형이 있습니다.
+- 직사각형 네 꼭짓점의 좌표 [[x1, y1], [x2, y2], [x3, y3], [x4, y4]]가 담겨있는 배열 dots가 매개변수로 주어질 때,
+- 직사각형의 넓이를 return 하도록 solution 함수를 완성해보세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Math.max()</h4>
+      ✏️ Math.max(...[1, 2, 3])을 하면 ...로 배열의 값만 가져와서 큰 수인 3을 반환해줍니다.
+    <h4>2. Math.min()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min">Math.min() 정의보기</a>
+    <h4>2. map()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map() 정의보기</a>
+  </div>
+</details>
