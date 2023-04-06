@@ -755,3 +755,18 @@
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [41. 120854](120854.js)
+- 문자열 배열 strlist가 매개변수로 주어집니다.
+- strlist 각 원소의 길이를 담은 배열을 retrun하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. map()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map() 정의보기</a>
+  </div>
+</details>
