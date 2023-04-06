@@ -539,7 +539,7 @@
   <summary><strong>사용된 메서드</strong></summary>
   <div markdown="1">
     <h4>1. forEach()</h4>
-      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor">Math.floor() 정의보기</a>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() 정의보기</a>
     <h4>2. new Map()</h4>
       ✏️ const myMap = new Map()를 하면 myMap이라는 Map 객체를 생성합니다. 값을 넣을 땐 set을 활용해서 합니다.
     <h4>3. Map.prototype.has()</h4>
@@ -687,7 +687,7 @@
     <h4>1. split()</h4>
       ✏️ str.split(/[A-z]/)를 하면 str 안에 A~z까지 문자열을 기준을 의미하는 정규표현식을 사용해서 문자열을 나눠서 배열로 반환합니다.
     <h4>2. forEach()</h4>
-      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor">Math.floor() 정의보기</a>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() 정의보기</a>
     <h4>3. indexOf()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
     <h4>4. parseInt()</h4>
@@ -768,5 +768,32 @@
   <div markdown="1">
     <h4>1. map()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map() 정의보기</a>
+  </div>
+</details>
+
+***
+
+### [42. 120853](120853.js)
+- 숫자와 "Z"가 공백으로 구분되어 담긴 문자열이 주어집니다.
+- 문자열에 있는 숫자를 차례대로 더하려고 합니다.
+- 이 때 "Z"가 나오면 바로 전에 더했던 숫자를 뺀다는 뜻입니다.
+- 숫자와 "Z"로 이루어진 문자열 s가 주어질 때, 머쓱이가 구한 값을 return 하도록 solution 함수를 완성해보세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. split()</h4>
+      ✏️ str.split(' ')을 하면 ' '을 기준으로 문자열을 나눠서 새로운 배열을 반환합니다.
+    <h4>2. reduce()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map() 정의보기</a>
+    <h4>3. Number()</h4>
+      ✏️ Number('123')을 하면 문자열을 숫자로 변환해서 123을 반환합니다.
+    <h4>4. forEach()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() 정의보기</a>
+    <h4>5. pop()</h4>
+      ✏️ arr.pop()을 하면 arr의 맨 뒤에 있는 값을 삭제해줍니다.
+    <h4>6. push()</h4>
+      ✏️ arr.push(12)를 하면 arr의 맨 뒤에 12를 삽입해줍니다.
   </div>
 </details>
