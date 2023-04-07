@@ -797,3 +797,22 @@
       ✏️ arr.push(12)를 하면 arr의 맨 뒤에 12를 삽입해줍니다.
   </div>
 </details>
+
+***
+
+### [43. 120852](120852.js)
+- 소인수분해란 어떤 수를 소수들의 곱으로 표현하는 것입니다.
+- 예를 들어 12를 소인수 분해하면 2 * 2 * 3 으로 나타낼 수 있습니다.
+- 따라서 12의 소인수는 2와 3입니다.
+- 자연수 n이 매개변수로 주어질 때 n의 소인수를 오름차순으로 담은 배열을 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Math.floor()</h4>
+      ✏️ Math.floor(12.3)을 하면 12.3보다 작거나 같은 정수 중에서 큰 수를 반환해주기 때문에 12를 반환합니다.
+    <h4>2. new Set()</h4>
+      ✏️ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/Set">new Set() 정의보기</a>
+  </div>
+</details>
