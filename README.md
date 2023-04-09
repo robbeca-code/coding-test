@@ -816,3 +816,22 @@
       ✏️ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/Set">new Set() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [44. 120851](120851.js)
+- 문자열 my_string이 매개변수로 주어집니다.
+- my_string안의 모든 자연수들의 합을 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. split()</h4>
+      ✏️ str.split(' ')을 하면 공백을 기준으로 문자열을 나눠서 새로운 배열로 반환합니다.
+    <h4>2. filter()</h4>
+      ✏️ arr.filter(v => v > 0)하면 조건문인 'v > 0'을 만족하는 값들만 모아서 새로운 배열로 반환합니다.
+    <h4>3. reduce()</h4>
+      ✏️ arr.reduce((a, c) => a + c, 0)을 하면 초기값은 0이고, arr의 현재 값이 c에 전달되고, a에 그동안 합한 수를 저장하는 변수입니다. 최종적으로 a를 반환합니다.
+  </div>
+</details>
