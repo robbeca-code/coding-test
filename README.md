@@ -835,3 +835,22 @@
       ✏️ arr.reduce((a, c) => a + c, 0)을 하면 초기값은 0이고, arr의 현재 값이 c에 전달되고, a에 그동안 합한 수를 저장하는 변수입니다. 최종적으로 a를 반환합니다.
   </div>
 </details>
+
+***
+
+### [45. 120850](120850.js)
+- 문자열 my_string이 매개변수로 주어질 때,
+- my_string 안에 있는 숫자만 골라 오름차순 정렬한 리스트를 return 하도록 solution 함수를 작성해보세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. split()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/split">split() 정의보기</a>
+    <h4>2. map()</h4>
+      ✏️ arr.map(v => v > 0 ? v : null)) 을 했을 때 조건문에 맞으면 알맞은 값을 반환해서 새로운 배열로 만들어줍니다.
+    <h4>3. filter()</h4>
+      ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter() 정의보기</a>
+  </div>
+</details>
