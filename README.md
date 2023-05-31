@@ -906,7 +906,7 @@
 
 ***
 
-### [47. 172928](172928.js)
+### [48. 172928](172928.js)
 - 지나다니는 길을 'O', 장애물을 'X'로 나타낸 직사각형 격자 모양의 공원에서 로봇 강아지가 산책을 하려합니다.
 - 산책은 로봇 강아지에 미리 입력된 명령에 따라 진행하며, 명령은 다음과 같은 형식으로 주어집니다.
 - 예를 들어 "E 5"는 로봇 강아지가 현재 위치에서 동쪽으로 5칸 이동했다는 의미입니다
@@ -933,5 +933,38 @@
     <h4>4. switch</h4>
       ✏️ case는 방향을 기준으로 정의해서 routes에서 방향과 알맞는 case로 이동되고 그 안에서 좌표 이동 코드가 구현되도록 활용했습니다.
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/switch">switch 정의보기</a>
+  </div>
+</details>
+
+***
+
+### [49. 161990](161990.js)
+- 머쓱이는 본인의 컴퓨터 바탕화면이 너무 지저분하다고 생각해서 저장해 둔 파일들을 전부 삭제하기로 했습니다.
+- 머쓱이의 컴퓨터 바탕화면의 상태를 나타내는 문자열 배열 wallpaper가 매개변수로 주어질 때,
+- 바탕화면의 파일들을 한 번에 삭제하기 위해 최소한의 이동거리를 갖는 드래그의 시작점과 끝점을 담은 정수 배열을 return하는 solution 함수를 작성해 주세요.
+- 드래그의 시작점이 (lux, luy), 끝점이 (rdx, rdy)라면 정수 배열 [lux, luy, rdx, rdy]를 return하면 됩니다.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. indexOf()</h4>
+      ✏️ indexOf를 활용해서 wallpaper의 y좌표와 x좌표가 되는 모든 경우의 수를 찾는 것에 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
+    <h4>2. forEach()</h4>
+      ✏️ wallpaper에서 #이 어디있는지 찾을 때 반복문으로 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() 정의보기</a>
+    <h4>3. lastIndexOf()</h4>
+      ✏️ indexOf()는 가장 앞에 있는 것만 반환하기 때문에 마지막에 있는 '#'를 찾지 못할 경우를 대비하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf">lastIndexOf() 정의보기</a>
+    <h4>4. Set()</h4>
+      ✏️ x 좌표에 저장된 값들 중 중복된 것을 제거하는 것에 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set">Set 정의보기</a>
+    <h4>5. Math.min()</h4>
+      ✏️ 첫 번째 y좌표와 x좌표를 찾는 것에 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min">Math.min() 정의보기</a>
+    <h4>6. Math.max()</h4>
+      ✏️ 마지막 y좌표와 x좌표를 찾는 것에 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max">Math.max() 정의보기</a>
   </div>
 </details>
