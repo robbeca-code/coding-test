@@ -871,11 +871,11 @@
   <div markdown="1">
     <h4>1. new Map()</h4>
       ✏️ let maps = new Map()로 키-값 쌍으로 이루어진 Map 객체를 생성할 수 있습니다.
-    <h4>2. set() [new Map()에서 사용함]</h4>
+    <h4>2. set() [new Map()에서 사용]</h4>
       ✏️ maps.set('key1', 'value1')으로 'key1'이 존재하지 않을 때만 키-값 쌍으로 데이터를 삽입할 수 있습니다.
-    <h4>3. get() [new Map()에서 사용함]</h4>
+    <h4>3. get() [new Map()에서 사용]</h4>
       ✏️ maps.get('key1')을 하면 값('value1')을 반환합니다. 만약 존재하지 않는다면 undefined를 반환합니다.
-    <h4>4. delete() [new Map()에서 사용함]</h4>
+    <h4>4. delete() [new Map()에서 사용]</h4>
       ✏️ maps.delete('key1')을 하면 해당 데이터 전체를 삭제해줍니다. 삭제가 가능하다면 true, 그렇지 않다면 false를 반환합니다.
     <h4>5. forEach()</h4>
       ✏️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() 정의보기</a>
@@ -966,5 +966,31 @@
     <h4>6. Math.max()</h4>
       ✏️ 마지막 y좌표와 x좌표를 찾는 것에 활용했습니다.
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max">Math.max() 정의보기</a>
+  </div>
+</details>
+
+***
+
+### [50. 150370](150370.js)
+- 수집된 개인정보는 유효기간 전까지만 보관 가능하며, 유효기간이 지났다면 반드시 파기해야 합니다.
+- 오늘 날짜를 의미하는 문자열 today, 약관의 유효기간을 담은 1차원 문자열 배열 terms와 수집된 개인정보의 정보를 담은 1차원 문자열 배열 privacies가 매개변수로 주어집니다.
+- 이때 파기해야 할 개인정보의 번호를 오름차순으로 1차원 정수 배열에 담아 return 하도록 solution 함수를 완성해 주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. set()</h4>
+      ✏️ terms에서 유효기간 타입을 key로, 유효기간을 value로 Map()에 저장하는데 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Map/set">set() 정의보기</a>
+    <h4>2. get() [Map()에서 사용]</h4>
+      ✏️ privacies에서 유효기간 타입이 terms를 저장한 Map()에 있는지 값을 반환할 때 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Map/get">get() 정의보기</a>
+    <h4>3. split()</h4>
+      ✏️ today와 terms, privacies 안에서 같은 정보끼리 나누어서 새로운 배열로 만들 때 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/split">split() 정의보기</a>
+    <h4>4. Math.floor()</h4>
+      ✏️ 유효기간에서 연도를 나눌 때 나머지는 내림하고 몫만 사용하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor">Math.floor() 정의보기</a>
   </div>
 </details>
