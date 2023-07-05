@@ -1018,3 +1018,27 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [52. 133502](133502.js)
+- 함께 일을 하는 다른 직원들이 햄버거에 들어갈 재료를 조리해 주면 조리된 순서대로 상수의 앞에 아래서부터 위로 쌓이게 되고,
+- 상수는 순서에 맞게 쌓여서 완성된 햄버거를 따로 옮겨 포장을 하게 됩니다.
+- 상수가 일하는 가게는 정해진 순서(아래서부터, 빵 – 야채 – 고기 - 빵)로 쌓인 햄버거만 포장을 합니다.
+- 상수에게 전해지는 재료의 정보를 나타내는 정수 배열 ingredient가 주어졌을 때, 상수가 포장하는 햄버거의 개수를 return 하도록 solution 함수를 완성하시오.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. forEach()</h4>
+      ✏️ ingredient의 데이터들을 순차적으로 사용하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() 정의보기</a>
+    <h4>2. push()</h4>
+      ✏️ 배열 stack에 식재료를 저장하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push">push() 정의보기</a>
+    <h4>3. pop()</h4>
+      ✏️ stack에서 사용한 식재료를 제거하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/pop">pop() 정의보기</a>
+  </div>
+</details>
