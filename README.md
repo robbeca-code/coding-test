@@ -1042,3 +1042,31 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/pop">pop() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [53. 131128](131128.js)
+- 두 정수 X, Y의 임의의 자리에서 공통으로 나타나는 정수 k(0 ≤ k ≤ 9)들을 이용하여 만들 수 있는 가장 큰 정수를 두 수의 짝꿍이라 합니다
+- X, Y의 짝꿍이 존재하지 않으면, 짝꿍은 -1입니다.
+- X, Y의 짝꿍이 0으로만 구성되어 있다면, 짝꿍은 0입니다.
+- X = 3403이고 Y = 13203이라면, X와 Y의 짝꿍은 X와 Y에서 공통으로 나타나는 3, 0, 3으로 만들 수 있는 가장 큰 정수인 330입니다.
+- 두 정수 X, Y가 주어졌을 때, X, Y의 짝꿍을 return하는 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드와 제어문</strong></summary>
+  <div markdown="1">
+    <h4>1. split()</h4>
+      ✏️ X와 Y가 문자열이기 때문에 배열로 변환하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/split">split() 정의보기</a>
+    <h4>2. sort()</h4>
+      ✏️ X와 Y를 배열로 변환하고 오름차순과 내림차순을 하고, 마지막에 값을 반환할 때 가장 큰 수로 만들기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
+    <h4>3. while()</h4>
+      ✏️ X와 Y에서 일치하는 숫자를 찾기 위해 반복문으로 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/while">while() 정의보기</a>
+    <h4>4. join()</h4>
+      ✏️ 마지막에 값을 반환할 때 배열로 되어있는 것을 문자열로 변환하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
+  </div>
+</details>
