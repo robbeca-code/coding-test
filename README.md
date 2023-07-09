@@ -1046,7 +1046,7 @@
 ***
 
 ### [53. 131128](131128.js)
-- 두 정수 X, Y의 임의의 자리에서 공통으로 나타나는 정수 k(0 ≤ k ≤ 9)들을 이용하여 만들 수 있는 가장 큰 정수를 두 수의 짝꿍이라 합니다
+- 두 정수 X, Y의 임의의 자리에서 공통으로 나타나는 정수 k(0 ≤ k ≤ 9)들을 이용하여 만들 수 있는 가장 큰 정수를 두 수의 짝꿍이라 합니다.
 - X, Y의 짝꿍이 존재하지 않으면, 짝꿍은 -1입니다.
 - X, Y의 짝꿍이 0으로만 구성되어 있다면, 짝꿍은 0입니다.
 - X = 3403이고 Y = 13203이라면, X와 Y의 짝꿍은 X와 Y에서 공통으로 나타나는 3, 0, 3으로 만들 수 있는 가장 큰 정수인 330입니다.
@@ -1068,5 +1068,28 @@
     <h4>4. join()</h4>
       ✏️ 마지막에 값을 반환할 때 배열로 되어있는 것을 문자열로 변환하기 위해 활용했습니다.
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
+  </div>
+</details>
+
+***
+
+### [54. 86491](86491.js)
+- 다양한 모양과 크기의 명함들을 모두 수납할 수 있으면서, 작아서 들고 다니기 편한 지갑을 만들어야 합니다.
+- 모든 명함의 가로 길이와 세로 길이를 나타내는 2차원 배열 sizes가 매개변수로 주어집니다.
+- 모든 명함을 수납할 수 있는 가장 작은 지갑을 만들 때, 지갑의 크기를 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Math.max()</h4>
+      ✏️ 가로와 세로의 길이를 저장한 배열에서 가장 큰 수를 가져오기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max">Math.max() 정의보기</a>
+    <h4>2. forEach()</h4>
+      ✏️ sizes에서 가로와 세로의 길이를 비교하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach() 정의보기</a>
+    <h4>3. push()</h4>
+      ✏️ 가로 길이와 세로 길이를 저장하는 배열에 값을 넣기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push">push() 정의보기</a>
   </div>
 </details>
