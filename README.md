@@ -1093,3 +1093,20 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push">push() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [55. 87389](87389.js)
+- 자연수 n이 매개변수로 주어집니다.
+- n을 x로 나눈 나머지가 1이 되도록 하는 가장 작은 자연수 x를 return 하도록 solution 함수를 완성해주세요.
+- 답이 항상 존재함은 증명될 수 있습니다.
+</br>
+
+<details>
+  <summary><strong>사용된 제어문</strong></summary>
+  <div markdown="1">
+    <h4>1. for</h4>
+      ✏️ n에서 -1을 한 값만큼 반복해서 해당 값과 나눴을 때 0이 되는 수를 찾기 위해 반복문을 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/for">for 정의보기</a>
+  </div>
+</details>
