@@ -1110,3 +1110,23 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/for">for 정의보기</a>
   </div>
 </details>
+
+***
+
+### [56. 140108](140108.js)
+- 먼저 첫 글자를 읽습니다. 이 글자를 x라고 합시다.
+- 이제 이 문자열을 왼쪽에서 오른쪽으로 읽어나가면서, x와 x가 아닌 다른 글자들이 나온 횟수를 각각 셉니다.
+- 처음으로 두 횟수가 같아지는 순간 멈추고, 지금까지 읽은 문자열을 분리합니다.
+- s에서 분리한 문자열을 빼고 남은 부분에 대해서 이 과정을 반복합니다. 남은 부분이 없다면 종료합니다.
+- 만약 두 횟수가 다른 상태에서 더 이상 읽을 글자가 없다면, 역시 지금까지 읽은 문자열을 분리하고, 종료합니다.
+- 문자열 s가 매개변수로 주어질 때, 위 과정과 같이 문자열들로 분해하고, 분해한 문자열의 개수를 return 하는 함수 solution을 완성하세요.
+</br>
+
+<details>
+  <summary><strong>사용된 제어문</strong></summary>
+  <div markdown="1">
+    <h4>1. while</h4>
+      ✏️ s에 저장된 문자를 1개씩 순차적으로 반복하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/while">while 정의보기</a>
+  </div>
+</details>
