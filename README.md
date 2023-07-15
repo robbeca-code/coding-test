@@ -1130,3 +1130,31 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/while">while 정의보기</a>
   </div>
 </details>
+
+***
+
+### [57. 155652](155652.js)
+- 두 문자열 s와 skip, 그리고 자연수 index가 주어질 때, 다음 규칙에 따라 문자열을 만들려 합니다.
+- 문자열 s의 각 알파벳을 index만큼 뒤의 알파벳으로 바꿔줍니다.
+- index만큼의 뒤의 알파벳이 z를 넘어갈 경우 다시 a로 돌아갑니다.
+- skip에 있는 알파벳은 제외하고 건너뜁니다.
+- 두 문자열 s와 skip, 그리고 자연수 index가 매개변수로 주어질 때 위 규칙대로 s를 변환한 결과를 return하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. charCodeAt()</h4>
+      ✏️ 알파벳을 아스키 코드로 변환하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt">charCodeAt 정의보기</a>
+    <h4>2. fromCodePoint()</h4>
+      ✏️ 아스키 코드를 다시 알파벳으로 변환하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint">fromCodePoint 정의보기</a>
+    <h4>3. filter()</h4>
+      ✏️ skip에 해당하지 않는 문자만 가져오기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter 정의보기</a>
+    <h4>4. indexOf()</h4>
+      ✏️ index만큼 알파벳을 가져왔을 때 skip에 해당하는 문자가 있는지 확인하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf 정의보기</a>
+  </div>
+</details>
