@@ -1146,15 +1146,40 @@
   <div markdown="1">
     <h4>1. charCodeAt()</h4>
       ✏️ 알파벳을 아스키 코드로 변환하기 위해 활용했습니다.
-      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt">charCodeAt 정의보기</a>
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt">charCodeAt() 정의보기</a>
     <h4>2. fromCodePoint()</h4>
       ✏️ 아스키 코드를 다시 알파벳으로 변환하기 위해 활용했습니다.
-      ➡️ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint">fromCodePoint 정의보기</a>
+      ➡️ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint">fromCodePoint() 정의보기</a>
     <h4>3. filter()</h4>
       ✏️ skip에 해당하지 않는 문자만 가져오기 위해 활용했습니다.
-      ➡️ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter 정의보기</a>
+      ➡️ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter() 정의보기</a>
     <h4>4. indexOf()</h4>
       ✏️ index만큼 알파벳을 가져왔을 때 skip에 해당하는 문자가 있는지 확인하기 위해 활용했습니다.
-      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf 정의보기</a>
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
+  </div>
+</details>
+
+***
+
+### [58. 138477](138477.js)
+- 이 프로그램에서는 매일 "명예의 전당"의 최하위 점수를 발표합니다.
+- 예를 들어, k = 3이고, 7일 동안 진행된 가수의 점수가 [10, 100, 20, 150, 1, 100, 200]이라면,
+- 명예의 전당에서 발표된 점수는 아래의 그림과 같이 [10, 10, 10, 20, 20, 100, 100]입니다.
+- 명예의 전당 목록의 점수의 개수 k, 1일부터 마지막 날까지 출연한 가수들의 점수인 score가 주어졌을 때,
+- 매일 발표된 명예의 전당의 최하위 점수를 return하는 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Math.min()</h4>
+      ✏️ k개 만큼 점수를 저장했을 때 가장 작은 점수를 찾기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min">Math.min() 정의보기</a>
+    <h4>2. splice()</h4>
+      ✏️ 점수를 저장하고 해당 길이가 k개 보다 클 때, 작은 수를 배열에서 삭제하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">splice() 정의보기</a>
+    <h4>3. indexOf()</h4>
+      ✏️ 점수를 저장하고 해당 길이가 k개 보다 클 때, 가장 작은 수를 찾고 해당 인덱스가 무엇인지 알기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
   </div>
 </details>
