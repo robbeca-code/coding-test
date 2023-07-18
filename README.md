@@ -1183,3 +1183,25 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [59. 81301](81301.js)
+- 네오가 프로도에게 숫자를 건넬 때 일부 자릿수를 영단어로 바꾼 카드를 건네주면 프로도는 원래 숫자를 찾는 게임입니다.
+- 다음은 숫자의 일부 자릿수를 영단어로 바꾸는 예시입니다.
+- 1478 → "one4seveneight", 234567 → "23four5six7", 10203 → "1zerotwozero3"
+- 이렇게 숫자의 일부 자릿수가 영단어로 바뀌어졌거나, 혹은 바뀌지 않고 그대로인 문자열 s가 매개변수로 주어집니다.
+- s가 의미하는 원래 숫자를 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. push()</h4>
+      ✏️ answer라는 배열에 숫자를 삽입하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push">push() 정의보기</a>
+    <h4>2. join()</h4>
+      ✏️ 마지막에 정답을 반환할 때 숫자형으로 변환해야하기 때문에 배열을 문자열로 변환하고 1을 곱해줬을 때 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join">join() 정의보기</a>
+  </div>
+</details>
