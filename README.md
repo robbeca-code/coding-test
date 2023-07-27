@@ -1230,3 +1230,25 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">splice() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [61. 77484](77484.js)
+- 로또 6/45(이하 '로또'로 표기)는 1부터 45까지의 숫자 중 6개를 찍어서 맞히는 대표적인 복권입니다.
+- 순위->동일한개수, 1->6개 번호가 모두 일치, 2->5개 번호가 일치, 3->4개 번호가 일치, 4->3개 번호가 일치, 5->2개 번호가 일치, 6->그 외
+- 민우는 로또를 구매했지만 민우의 동생이 로또에 낙서를 하여, 일부 번호를 알아볼 수 없게 되었습니다.
+- 알아볼 수 없는 번호를 0으로 표기하기로 하고, 민우가 구매한 로또 번호를 담은 배열 lottos, 당첨 번호를 담은 배열 win_nums가 매개변수로 주어집니다.
+- 이때, 당첨 가능한 최고 순위와 최저 순위를 차례대로 배열에 담아서 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드와 제어문</strong></summary>
+  <div markdown="1">
+    <h4>1. sort()</h4>
+      ✏️ lottos와 win_nums를 내림차순 정렬을 하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort() 정의보기</a>
+    <h4>2. switch</h4>
+      ✏️ 동일한 개수에 따라 순위를 구할 때, 값에 알맞는 case를 따라 순위를 반환하는 조건문을 만들었습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/switch">switch 정의보기</a>
+  </div>
+</details>
