@@ -1252,3 +1252,20 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/switch">switch 정의보기</a>
   </div>
 </details>
+
+***
+
+### [62. 12977](12977.js)
+- 주어진 숫자 중 3개의 수를 더했을 때 소수가 되는 경우의 개수를 구하려고 합니다.
+- 숫자들이 들어있는 배열 nums가 매개변수로 주어질 때,
+- nums에 있는 숫자들 중 서로 다른 3개를 골라 더했을 때 소수가 되는 경우의 개수를 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. isNaN()</h4>
+      ✏️ 3개의 수를 더했을 때 만약 숫자가 아닌 값이 더해져서 NaN인 값을 구분하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/isNaN">isNaN() 정의보기</a>
+  </div>
+</details>
