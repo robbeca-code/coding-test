@@ -1269,3 +1269,28 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/isNaN">isNaN() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [63. 118666](118666.js)
+- 성격 유형 검사는 다음과 같은 4개 지표로 성격 유형을 구분하고 성격은 각 지표에서 두 유형 중 하나로 결정됩니다.
+- 1번 지표->라이언형(R), 튜브형(T) / 2번 지표->콘형(C), 프로도형(F) / 3번 지표->제이지형(J), 무지형(M) / 4번 지표->어피치형(A), 네오형(N)
+- 검사지에는 총 n개의 질문이 있고, 각 질문에는 아래와 같은 7개의 선택지가 있습니다.
+- 매우 동의나 매우 비동의 선택지를 선택하면 3점을 얻고, 동의나 비동의 선택지를 선택하면 2점을 얻고, 약간 동의나 약간 비동의 선택지를 선택하면 1점을 얻습니다.
+- 모르겠음 선택지를 선택하면 점수를 얻지 않습니다.
+- 검사 결과는 모든 질문의 성격 유형 점수를 더하여 각 지표에서 더 높은 점수를 받은 성격 유형이 검사자의 성격 유형이라고 판단합니다.
+- 단, 하나의 지표에서 각 성격 유형 점수가 같으면, 두 성격 유형 중 사전 순으로 빠른 성격 유형을 검사자의 성격 유형이라고 판단합니다.
+- 검사자의 성격 유형 검사 결과를 지표 번호 순서대로 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. concat()</h4>
+      ✏️ answer에 성격 유형을 저장할 때 문자열을 연결하기 위해서 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/concat">concat() 정의보기</a>
+    <h4>2. charCodeAt()</h4>
+      ✏️ 같은 지표에서 두 유형의 점수가 같을 때 아스키 코드로 더 작은 값을 성격 유형으로 선택하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt">charCodeAt() 정의보기</a>
+  </div>
+</details>
