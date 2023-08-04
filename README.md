@@ -1294,3 +1294,28 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt">charCodeAt() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [64. 92334](92334.js)
+- 각 유저는 한 번에 한 명의 유저를 신고할 수 있습니다.
+- 한 유저를 여러 번 신고할 수도 있지만, 동일한 유저에 대한 신고 횟수는 1회로 처리됩니다.
+- k번 이상 신고된 유저는 게시판 이용이 정지되며, 해당 유저를 신고한 모든 유저에게 정지 사실을 메일로 발송합니다.
+- 이용자의 ID가 담긴 문자열 배열 id_list, 각 이용자가 신고한 이용자의 ID 정보가 담긴 문자열 배열 report, 정지 기준이 되는 신고 횟수 k가 매개변수로 주어질 때
+- 각 유저별로 처리 결과 메일을 받은 횟수를 배열에 담아 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 생성자와 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. new Set()</h4>
+      ✏️ report에서 한 유저가 여러 번 신고한 정보를 제거하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set">new Set() 정의보기</a>
+    <h4>2. split()</h4>
+      ✏️ report에는 "신고자 신고된_자"를 값으로 가진 배열로 저장해놔서 해당 문자열을 빈칸으로 구분해 배열로 변환하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/split">split() 정의보기</a>
+    <h4>3. new Array()</h4>
+      ✏️ answer을 id_list 개수에 맞게 초기화하기 위해서 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Array">new Array() 정의보기</a>
+  </div>
+</details>
