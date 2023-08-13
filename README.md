@@ -1319,3 +1319,19 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Array">new Array() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [65. 77884](77884.js)
+- 두 정수 left와 right가 매개변수로 주어집니다.
+- left부터 right까지의 모든 수들 중에서, 약수의 개수가 짝수인 수는 더하고, 약수의 개수가 홀수인 수는 뺀 수를 return 하도록 solution 함수를 완성해주세요.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. Math.sqrt()</h4>
+      ✏️ 숫자의 약수의 개수가 짝수인지 홀수인지 구분하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt">Math.sqrt() 정의보기</a>
+  </div>
+</details>
