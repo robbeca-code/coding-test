@@ -1335,3 +1335,23 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt">Math.sqrt() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [66. 42888](42888.js)
+- 신입사원인 김크루는 카카오톡 오픈 채팅방을 개설한 사람을 위해, 다양한 사람들이 들어오고, 나가는 것을 지켜볼 수 있는 관리자창을 만들기로 했다.
+- 채팅방에 누군가 들어오면 다음 메시지가 출력된다. -> "[닉네임]님이 들어왔습니다."
+- 채팅방에서 누군가 나가면 다음 메시지가 출력된다. -> "[닉네임]님이 나갔습니다."
+- 닉네임을 변경할 때는 중복을 허용하며 기존에 채팅방에 출력되어 있던 메시지의 닉네임도 전부 변경된다.
+- 채팅방에 들어오고 나가거나, 닉네임을 변경한 기록이 담긴 문자열 배열 record가 매개변수로 주어질 때,
+- 모든 기록이 처리된 후, 최종적으로 방을 개설한 사람이 보게 되는 메시지를 문자열 배열 형태로 return 하도록 solution 함수를 완성하라.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. split()</h4>
+      ✏️ record에 저장된 카톡 메시지를 빈칸으로 구분하여 [상태, 사용자ID, 닉네임]을 저장하기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/split">split() 정의보기</a>
+  </div>
+</details>
