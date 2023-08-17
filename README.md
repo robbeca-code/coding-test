@@ -1371,3 +1371,27 @@
       ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/split">split() 정의보기</a>
   </div>
 </details>
+
+***
+
+### [68. 17681](17681.js)
+- 이 비밀지도는 숫자로 암호화되어 있어 위치를 확인하기 위해서는 암호를 해독해야 한다.
+- 지도는 한 변의 길이가 n인 정사각형 배열 형태로, 각 칸은 "공백"(" ") 또는 "벽"("#") 두 종류로 이루어져 있다.
+- 전체 지도는 두 장의 지도를 겹쳐서 얻을 수 있다. 각각 "지도 1"과 "지도 2"라고 하자.
+- 지도 1 또는 지도 2 중 어느 하나라도 벽인 부분은 전체 지도에서도 벽이다. 지도 1과 지도 2에서 모두 공백인 부분은 전체 지도에서도 공백이다.
+- "지도 1"과 "지도 2"는 각각 정수 배열로 암호화되어 있다.
+- 암호화된 배열은 지도의 각 가로줄에서 벽 부분을 1, 공백 부분을 0으로 부호화했을 때 얻어지는 이진수에 해당하는 값의 배열이다.
+- 비밀지도의 암호를 해독하는 작업을 도와줄 프로그램을 작성하라.
+</br>
+
+<details>
+  <summary><strong>사용된 메서드</strong></summary>
+  <div markdown="1">
+    <h4>1. toString()</h4>
+      ✏️ 정수를 2진수로 표현하기 위해 toString(2)를 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString">toString() 정의보기</a>
+    <h4>2. reverse()</h4>
+      ✏️ 이진수에서 1과 0을 '#' 또는 ' '으로 표현하고 만약 길이가 n보다 짧을 때 앞에 ' '을 넣어주기 위해 활용했습니다.
+      ➡️ <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse">reverse() 정의보기</a>
+  </div>
+</details>
